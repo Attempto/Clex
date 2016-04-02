@@ -13,3 +13,7 @@ e.g. by using these commands.
 
 	curl -L https://raw.github.com/Attempto/Clex/master/clex_lexicon.pl > lexicon/clex_lexicon.pl
 	sh make_exe.sh
+
+Instead of `curl` one can also use `wget` to download the lexicon.
+
+	wget -O - http://raw.github.com/Attempto/Clex/master/clex_lexicon.pl > lexicon/clex_lexicon.pl
