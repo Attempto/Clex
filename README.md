@@ -11,9 +11,9 @@ with this large lexicon go into the root directory of the APE source,
 copy the large lexicon over `lexicon/clex_lexicon.pl` and recompile APE,
 e.g. by using these commands.
 
-	curl -L https://raw.github.com/Attempto/Clex/master/clex_lexicon.pl > lexicon/clex_lexicon.pl
-	sh make_exe.sh
+	curl -L https://raw.github.com/Attempto/Clex/master/clex_lexicon.pl > prolog/lexicon/clex_lexicon.pl
+	make build
 
 Instead of `curl` one can also use `wget` to download the lexicon.
 
-	wget -O - http://raw.github.com/Attempto/Clex/master/clex_lexicon.pl > lexicon/clex_lexicon.pl
+	wget -O - http://raw.github.com/Attempto/Clex/master/clex_lexicon.pl > prolog/lexicon/clex_lexicon.pl
